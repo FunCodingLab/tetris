@@ -25,4 +25,13 @@ typedef struct {
 
 } Tetromino;
 
+// --- Function Prototypes ---
+// These declarations make the functions visible to other .c files that include this header.
+
+// Creates a new tetromino of a random shape.
+Tetromino tetromino_create_random();
+
+// Rotates a tetromino 90 degrees clockwise.
+void tetromino_rotate(Tetromino *piece);
+
 #endif // TETROMINO_H
