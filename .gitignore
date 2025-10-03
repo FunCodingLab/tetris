@@ -55,7 +55,6 @@ Release/
 CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
-Makefile
 
 # gfr
 .gfr.yml
